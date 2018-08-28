@@ -24,10 +24,10 @@ class New():
 		"""
 		数据库查询user对应的短信
 		"""
-		conn = pymysql.connect(host="uathome.uuabc.com",
-							   user="wufenfen",
-							   password="wufenfen",
-							   db="newuuabc",
+		conn = pymysql.connect(host="xxxx",
+							   user="xxxx",
+							   password="xxxxx",
+							   db="xxxxx",
 							   port=3306,
 							   charset="utf8"
 							   )
