@@ -13,7 +13,7 @@ driver = webdriver.Chrome(executable_path='C:\\Users\\user\\Downloads\\chromedri
 						  chrome_options=options)
 # driver = webdriver.Chrome( chrome_options=options)
 
-username = "1470000"+''.join(random.sample('1234567890',8))
+username = "1470000" + ''.join(random.sample('1234567890', 4))
 
 driver.get("https://www.uuabc.com/index.html")
 # 输入账号
@@ -25,7 +25,6 @@ time.sleep(1)
 user = driver.find_elements_by_class_name("textarea")[0]
 user.send_keys(username)
 time.sleep()
-
 
 sleep(3)
 # 点击登录按钮
